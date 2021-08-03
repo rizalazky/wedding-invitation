@@ -535,12 +535,13 @@ margin-top: 5px;
 }
 #banner
 {
-    background: url('#') no-repeat;
-    background-size: cover;
+    /* background: url('./../img/home-bg.jpg') no-repeat; */
+    background-size: contain;
     min-height: 700px;
 }
 .inner-bg {    
-    background: url(https://sites.google.com/site/djuliarhearts/pattern.png);    
+    background: url('./../img/home-bg.jpg') no-repeat;  
+    background-size: cover;  
 }
 .cta-2 .btn-default,.cta-2 .btn-default:hover,.cta-2 .btn-default:focus
 {
