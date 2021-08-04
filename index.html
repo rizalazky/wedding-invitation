@@ -25,6 +25,13 @@
 </head>
 <body>
 	<!--HEADER START-->
+
+	<audio id="audio" class="song" style="display: none;" controls autoplay loop>
+        <source src="audio/janji_suci.mp3"></source>
+	   Your browser isn't invited for super fun audio time.
+    </audio>
+
+
 	<row class="main-navigation" id="navbar" >
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
@@ -34,7 +41,7 @@
 			    <span class="icon-bar"></span>
 			    <span class="icon-bar"></span>
 			  </button>
-			  <a class="navbar-brand" href="./">Samsul Arifin <i class="fa fa-heart"></i> Afiatin Sholiha</a>
+			  <a class="navbar-brand" href="./">Samsul <i class="fa fa-heart"></i> Afiatin </a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 			  <ul class="nav navbar-nav navbar-right" style="padding-top: 5px;">
@@ -57,7 +64,7 @@
 			<div class="row">
 				<div class="jumbotron col-md-8">
 				  <h1 class="small">Welcome To <br /><span class="bold">Wedding Invitation</span></h1>
-				  <h2 class="small"><span class="bold">Samsul &amp; Afiatin</span></h2>
+				  <h2 class="small"><span class="bold">Samsul Arifin &amp; Afiatin Sholiha</span></h2>
 				  <p class="big">Aku bersyukur kepada Allah yang mempertemukanku dengan pasangan hati. <br>Maka bukalah pintu rizki kami dan berkahilah kami dengannya.</p>
 				  <p class="big">
 				  	<div class="social">
@@ -102,8 +109,8 @@
 						<p>Putri Bapak Saheri - Ibu Asih<br>Karangasem - Karangdawa.</p>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="service-box">
+				<div class="col-md-4" style="display: flex;justify-content: center;">
+					<div class="service-box" style="display: flex;justify-content: center;">
 						<div class="service-icon"><i class="fa fa-diamond"></i></div>
 						<div class="service-text">
 							<h3>Akad Nikah</h3>
@@ -111,17 +118,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="service-box">
+				<div class="col-md-4" style="display: flex;justify-content: center;">
+					<div class="service-box" style="display: flex;justify-content: center;">
 						<div class="service-icon"><i class="fa fa-calendar"></i></div>
 						<div class="service-text">
 							<h3>Hari / Tanggal</h3>
-							<p>Sabtu, 14 Agustus 2021<br></p>
+							<p>Selasa, 10 Agustus 2021<br></p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4"> 
-					<div class="service-box">
+				<div class="col-md-4" style="display: flex;justify-content: center;"> 
+					<div class="service-box" style="display: flex;justify-content: center;">
 						<div class="service-icon"><i class="fa fa-location-arrow"></i></div><br>
 						<div class="service-text">
 							<h3><a href="#lokasi">Lokasi</a></h3>
@@ -261,12 +268,12 @@
 					<!-- <p>Lebih kenal kami di Media Sosial.</p> -->
 					<hr class="pg-titl-bdr-btm"></hr>
 				</div>
-				<div class="autoplay" style="display: flex;justify-content: center;">
-					<div class="col-md-6">
+				<div class="autoplay" >
+					<div class="col-md-6" style="display: flex;justify-content: center;">
 						<!-- <div class="team-info" height="400px"> -->
-							<div class="img-sec" height="400px">
-								<img src="img/samsul-photo2.jpg" height="400px" class="img-responsive">
-								<span style="position: absolute;bottom:2px;left:20px;color:white;font-weight:bold;">Samsul Arifin</span>
+							<div class="img-sec"  style="height: 350px;position: relative;">
+								<img src="img/samsul-photo2.jpg" height="350px" class="img-responsive">
+								<span style="position: absolute;bottom:2px;left:10px;color:white;font-weight:bold;">Samsul Arifin</span>
 							</div>
 							<!-- <div class="fig-caption">
 								<h3>Samsul Arifin</h3>
@@ -281,11 +288,11 @@
 							</div> -->
 						<!-- </div> -->
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" style="display: flex;justify-content: center;">
 						<!-- <div class="team-info" > -->
-							<div class="img-sec" height="400px">
-								<img src="img/atin-photo.jpg" height="400px" class="img-responsive">
-								<span style="position: absolute;bottom: 2px;left:20px;color:white;font-weight:bold;">Afiatin Sholiha</span>
+							<div class="img-sec" style="height: 350px;position: relative;">
+								<img src="img/atin-photo.jpg" height="350px" class="img-responsive">
+								<span style="position: absolute;bottom: 2px;left:10px;color:white;font-weight:bold;">Afiatin Sholiha</span>
 							</div>
 							<!-- <div class="fig-caption">
 								<h3>Afiatin Sholiha</h3>
@@ -326,12 +333,14 @@
 						<div class="col-md-6">
 							<h1>Rumah Samsul Arifin</h1>
 							<p>Jalan Anggrek 2 Karangdawa <br>Jawa Tengah.</p>
-							<iframe src="https://www.google.com/maps/embed?pb=!4v1628009115461!6m8!1m7!1swzVyMh-_DIHSqfkmv7ViwA!2m2!1d-7.071967334838239!2d109.0378549780728!3f13.164974715050796!4f-12.54005244415265!5f0.7820865974627469" width="500" height="375" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.4634656440126!2d109.03588681477366!3d-7.072140494892346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDQnMTkuNyJTIDEwOcKwMDInMTcuMSJF!5e0!3m2!1sen!2sid!4v1628088631408!5m2!1sen!2sid" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							<!-- <iframe src="https://www.google.com/maps/embed?pb=!4v1628009115461!6m8!1m7!1swzVyMh-_DIHSqfkmv7ViwA!2m2!1d-7.071967334838239!2d109.0378549780728!3f13.164974715050796!4f-12.54005244415265!5f0.7820865974627469" width="500" height="375" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 						</div>
 						<div class="col-md-6">
 							<h1>Rumah Afiatin Sholiha</h1>
 							<p>Jalan Anggrek 3 Karangdawa <br>Jawa Tengah.</p>
-							<iframe src="https://www.google.com/maps/embed?pb=!4v1628009422863!6m8!1m7!1sJf__txQBeAuOeov7mNmgzw!2m2!1d-7.071611863232053!2d109.0390957499936!3f20.543211168707785!4f3.5493819889076406!5f0.7820865974627469" width="500" height="375" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.4521622227153!2d109.03557141477374!3d-7.073458794891397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDQnMjQuNSJTIDEwOcKwMDInMTUuOSJF!5e0!3m2!1sen!2sid!4v1628088926469!5m2!1sen!2sid" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							<!-- <iframe src="https://www.google.com/maps/embed?pb=!4v1628009422863!6m8!1m7!1sJf__txQBeAuOeov7mNmgzw!2m2!1d-7.071611863232053!2d109.0390957499936!3f20.543211168707785!4f3.5493819889076406!5f0.7820865974627469" width="500" height="375" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 						</div>
 					</div>	
 				</div>
@@ -405,6 +414,14 @@
 			</div>
 		</div>
 	</div>
+
+
+	<!-- <audio controls loop>
+		<source src="/audio/janji_suci.mp3">
+		Your browser isn't invited for super fun audio time.
+	  </audio> -->
+	  
+
   	<script src="js/jquery.min.js"></script>  	
   	<script src="js/bootstrap.min.js"></script>
   	<script src="js/jquery.mixitup.js"></script>
@@ -413,6 +430,21 @@
 	<script src="js/countdown.js"></script>
 	<script src="js/scripts.js"></script>
 	<!--for smooth scrolling-->
+	<script>
+		// const audio=new Audio("audio/janji_suci.mp3");
+		// document.addEventListener('click',function(){
+		// 	console.log("ON LOAD")
+		// 	document.getElementById('audio').play();
+		// })
+
+		document.addEventListener('click', musicPlay);
+		function musicPlay() {
+			document.getElementById('audio').play();
+			document.removeEventListener('click', musicPlay);
+		}
+
+		// audio.play();
+	</script>
 	<script>
 	$('a').click(function(){
     $('html, body').animate({
