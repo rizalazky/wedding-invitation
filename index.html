@@ -330,7 +330,7 @@
 					<p></p>
 					<hr class="pg-titl-bdr-btm"></hr>
 					<div class="autoplay">
-						<div class="col-md-6">
+						<div class="col-md-6 mr-2">
 							<h1>Rumah Samsul Arifin</h1>
 							<p>Jalan Anggrek 2 Karangdawa <br>Jawa Tengah.</p>
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.4634656440126!2d109.03588681477366!3d-7.072140494892346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDQnMTkuNyJTIDEwOcKwMDInMTcuMSJF!5e0!3m2!1sen!2sid!4v1628088631408!5m2!1sen!2sid" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -438,9 +438,11 @@
 		// })
 
 		document.addEventListener('click', musicPlay);
+		document.addEventListener('scroll',musicPlay)
 		function musicPlay() {
 			document.getElementById('audio').play();
 			document.removeEventListener('click', musicPlay);
+			document.removeEventListener('scroll', musicPlay);
 		}
 
 		// audio.play();
