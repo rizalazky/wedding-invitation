@@ -1,6 +1,6 @@
 // set the date we're counting down to
-var target_date = new Date('Aug, 13, 2021').getTime();
- 
+var target_date = new Date('March, 27, 2026').getTime();
+//  Jumat, 27 Maret 2026
 // variables for time units
 var days, hours, minutes, seconds;
  
